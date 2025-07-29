@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: ;
+            grid-template-areas:
+                'navbar navbar navbar navbar'
+                "star star star star"
+                'section section section section'
+                'long power sigma tom'
+                'footer footer footer footer';
+        }
+
+        nav {
+            grid-area: navbar;
+            height: 10vh;
+            width: auto;
+            background-color: skyblue;
+        }
+
+        nav:hover {
+            color: red;
+            font-size: xx-large;
+        }
+
+        @media(min-width: 1201px) and (max-width: 1600) {
+            section {
+                grid-area: section;
+                height: 20vh;
+                width: auto;
+                text-align: center;
+            }
+        }
+
+        /* aside {
+            grid-area: aside;
+            width: 69vh;
+        }*/
+        long {
+            grid-area: long;
+            height: 35vh;
+            width: auto;
+            text-align: center;
+            margin: 130px;
+            margin-top: 70px;
+        }
+
+        img {
+            height: 20vh;
+            width: auto;
+        }
+
+        power {
+            grid-area: power;
+            height: 30vh;
+            width: auto;
+            text-align: center;
+            margin-left: 130px;
+            margin-top: 70px;
+        }
+
+        sigma {
+            grid-area: sigma;
+            height: 40vh;
+            width: auto;
+            text-align: center;
+            margin-left: 130px;
+            margin-top: 70px;
+        }
+
+        tom {
+            grid-area: tom;
+            height: 40vh;
+            width: auto;
+            text-align: center;
+            margin-left: 130px;
+            margin-top: 70px;
+
+        }
+
+        footer {
+            grid-area: footer;
+            text-align: center;
+            font-size: x-small;
+            height: 10vh;
+            width: auto;
+            background: skyblue;
+            margin-top: 150px;
+        }
+
+        footer:hover {
+            color: red;
+            font-size: x-small;
+        }
+
+        .bdr {
+            background-color: ;
+            border: 2px;
+            padding: 10px 23px;
+
+
+        }
+
+        nav ul {
+            height: 60px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            padding: 0 28px;
+            font-size: large;
+
+
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            height: 3px;
+            text-size-adjust: 3px;
+        }
+
+        .logo img {
+
+            padding: ;
+            color: white;
+            height: 3px;
+            text-size-adjust: 3px;
+
+        }
+
+        .btn {
+            padding: 4px 9px;
+            color: white;
+            background-color: orange;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+
+        star {
+            grid-area: star;
+            text-align: center;
+            justify-items: center;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+            margin: 0 40px;
+        }
+
+        .search input {
+            width: 493px;
+            height: 23px;
+            border-radius: 5px;
+            padding: 0 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <nav class="bdr">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+
+        </nav>
+        </nav>
+
+        <star class="bdr">
+            <input type="text" name"" id-"" placeholder="search Here">
+            <button class="btn">search</button>
+        </star>
+
+        <section class="bdr"> <img src="./assest/image/img.007.webp"></section>
+
+
+        <tom class="bdr"><img src="./assest/image/51Czh683NYL.jpg">
+        </tom>
+        <long class="bdr"><img src="./assest/image/Rise.webp">
+        </long>
+        <sigma class="bdr"><img src="./assest/image/soft.jpeg">
+        </sigma>
+        <power class="bdr"><img src="./assest/image/cosmetic-items.jpg">
+        </power>
+        <footer class="bdr">
+            <h1>SYED SHAH SHABBIR ALI HASNI</h1>
+            <h2>(Software Developer-cum-AI Engineer)</h2>
+        </footer>
+
+
+</body>
+
+</html>
